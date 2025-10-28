@@ -47,6 +47,8 @@ INSTALLED_APPS = [
 
 AUTH_USER_MODEL = 'core.User'  # we will create custom user model later
 
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -87,7 +89,7 @@ DATABASES = {
         'USER': 'root',                # your MySQL user
         'PASSWORD': 'your_password',   # your MySQL password
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '3307',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
